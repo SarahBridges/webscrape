@@ -10,7 +10,7 @@ var f = fuction(d){
 L.add(d);}
 
 
-x = d3.selectAll(".fusion-builder-row.fusion-row").selectAll("a").nodes().slice(1).selectAll("outerText")
+x = d3.selectAll(".fusion-builder-row.fusion-row").selectAll("a").nodes().slice(1)
 x.forEach(function(element) {
   console.log(element.text);
 });

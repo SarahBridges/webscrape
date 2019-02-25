@@ -15,8 +15,10 @@ x.forEach(function(element) {
 
 c = d3.selectAll(".sc-coursetitle").nodes()
 
+
+//List out the classes unless it is an "OR" string
 c.forEach(function(element) {
-  if element.innerText != "OR"{
+  if (element.innerText != "OR"){
    
     console.log(element.innerText);
   }

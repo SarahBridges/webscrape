@@ -16,5 +16,8 @@ x.forEach(function(element) {
 c = d3.selectAll(".sc-coursetitle").nodes()
 
 c.forEach(function(element) {
-  console.log(element.innerText);
+  if element.innerText != "OR"{
+   
+    console.log(element.innerText);
+  }
 });

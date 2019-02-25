@@ -10,3 +10,11 @@ x.forEach(function(element) {
   console.log(element.text);
 });
 
+
+//For CSC classes
+
+c = d3.selectAll(".sc-coursetitle").nodes()
+
+c.forEach(function(element) {
+  console.log(element.innerText);
+});

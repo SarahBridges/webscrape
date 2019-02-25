@@ -27,7 +27,7 @@ c.forEach(function(element) {
 });
 
 
-//Other schools: University of Kentucky (
+//Other schools: University of Kentucky (http://www.uky.edu/academics/2017-18-major-sheet-inventory)
 
 
 x = d3.selectAll("li").selectAll("a").nodes()
